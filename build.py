@@ -240,24 +240,40 @@ def build_home():
 def build_research():
     p = DATA["person"]
 
+    # Top-level groups drive the jump nav, so keep them few. Anything that is
+    # not a working paper, publication, or policy piece lives under "Other".
     groups = [
-        ("Working papers", DATA["working_papers"]),
-        ("Older working papers", DATA["older_working_papers"]),
-        ("Research on the Turkish economy", DATA["turkey"]),
-        ("Publications", DATA["publications"]),
-        ("Policy and other writing", DATA["other_writing"]),
-        ("Books", DATA["books"]),
-        ("Theses", DATA["theses"]),
-        ("Publications in mathematics", DATA["math"]),
+        ("Working papers", [
+            (None, DATA["working_papers"]),
+            ("Earlier working papers", DATA["older_working_papers"]),
+        ]),
+        ("Publications", [
+            (None, DATA["publications"]),
+        ]),
+        ("Policy and other writing", [
+            (None, DATA["other_writing"]),
+        ]),
+        ("Other", [
+            ("Books", DATA["books"]),
+            ("Theses", DATA["theses"]),
+            ("Publications in mathematics", DATA["math"]),
+            ("Other writing", DATA.get("misc", [])),
+        ]),
     ]
 
     blocks, jumps = [], []
-    for title, items in groups:
-        if not items:
+    for title, subgroups in groups:
+        if not any(items for _, items in subgroups):
             continue
         anchor = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
         jumps.append(f'<a href="#{anchor}">{title}</a>')
-        blocks.append(f'<h3 class="group-title" id="{anchor}">{title}</h3>\n{paper_list(items)}')
+        blocks.append(f'<h3 class="group-title" id="{anchor}">{title}</h3>')
+        for subtitle, items in subgroups:
+            if not items:
+                continue
+            if subtitle:
+                blocks.append(f'<h4 class="subgroup-title">{subtitle}</h4>')
+            blocks.append(paper_list(items))
 
     body = f"""
 <div class="wrap">

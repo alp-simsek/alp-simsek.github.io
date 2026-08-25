@@ -438,3 +438,16 @@ h3.group-title { scroll-margin-top: 5rem; }
 
 /* keep teaching content on the same measure as the paper lists */
 .courses, .students-group, .honors { max-width: 46rem; }
+
+/* ---------- subheading inside a research group ---------- */
+h4.subgroup-title {
+  font-family: var(--sans);
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  max-width: 46rem;
+  margin: 2rem 0 .75rem;
+}
+h4.subgroup-title:first-of-type { margin-top: 0; }

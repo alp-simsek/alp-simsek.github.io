@@ -255,36 +255,6 @@
       "abstract": "A “folk theorem” maintains that competitive equilibria with asymmetric information are always (or generically) inefficient unless agents' consumption can be fully monitored by the principal (and specified in contracts). We critically evaluate these claims in the context of a general equilibrium economy with moral hazard. We allow agents' consumption to be <em>partially</em> monitored (e.g., employment contracts can specify how long a vacation agent takes, but not where she spends her vacation). We identify weak separability of agents' preferences between non-monitored consumption and effort as the necessary and sufficient condition for efficiency (e.g., weak separability implies how much the agent likes Bahamas vs. Hawaii is independent of her effort level). We also establish ε-efficiency when there are only small deviations from weak separability. These results delineate a range of benchmark environments under which general equilibrium has strong efficiency properties even though agents' consumption is not fully monitored."
     }
   ],
-  "turkey": [
-    {
-      "title": "Türkiye'nin Enflasyon Tercihleri",
-      "coauthors": [
-        "Refet Gürkaynak",
-        "Sang Seok Lee",
-        "Burçin Kısacıkoğlu"
-      ],
-      "year": "2022",
-      "note": "Bilkent University working paper, in Turkish.",
-      "links": [
-        {
-          "label": "PDF",
-          "url": "http://refet.bilkent.edu.tr/GKLS_TR_Enflasyon_Makale_25Ekim2022_TT.pdf"
-        }
-      ]
-    },
-    {
-      "title": "An Economic Look at the Village Institutes",
-      "coauthors": [],
-      "year": "2006",
-      "note": "An old term paper written as a student for an MIT course on economic history.",
-      "links": [
-        {
-          "label": "PDF",
-          "url": "https://www.dropbox.com/s/7fjod1tw9cd3a2x/VillageInstitutes.pdf?dl=0"
-        }
-      ]
-    }
-  ],
   "publications": [
     {
       "title": "Central Banks, Stock Markets, and the Real Economy",
@@ -754,6 +724,24 @@
         }
       ],
       "abstract": "I illustrate the effect of financial innovation on portfolio risks by using an example with risk-sharing needs and belief disagreements. I consider two types of innovation: product innovation, formalized as an expansion of new financial assets; and process innovation, formalized as a reduction in transaction costs. When belief disagreements are large, both types of innovation increase portfolio risks. Moreover, endogenous financial innovation is directed towards speculative assets that increase portfolio risks."
+    },
+    {
+      "title": "Türkiye'nin Enflasyon Tercihleri",
+      "coauthors": [
+        "Refet Gürkaynak",
+        "Sang Seok Lee",
+        "Burçin Kısacıkoğlu"
+      ],
+      "outlet": "Çıkmaz Yol: Dünden Yarına Türkiye Ekonomisi",
+      "year": "2023",
+      "cite": "eds. A. S. Akat and S. Gürsel, İstanbul Bilgi Üniversitesi Yayınları, 123–148",
+      "note": "Book chapter, in Turkish.",
+      "links": [
+        {
+          "label": "Working paper",
+          "url": "http://refet.bilkent.edu.tr/GKLS_TR_Enflasyon_Makale_25Ekim2022_TT.pdf"
+        }
+      ]
     }
   ],
   "books": [
@@ -1068,5 +1056,19 @@
     "MIT Robert Solow Award for excellence in research and teaching in economics (2010)",
     "Review of Economic Studies Tour (2010)",
     "Silver Medal, International Mathematical Olympiad (2000)"
+  ],
+  "misc": [
+    {
+      "title": "An Economic Look at the Village Institutes",
+      "coauthors": [],
+      "year": "2006",
+      "note": "An old term paper written as a student for an MIT course on economic history.",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://www.dropbox.com/s/7fjod1tw9cd3a2x/VillageInstitutes.pdf?dl=0"
+        }
+      ]
+    }
   ]
 }
