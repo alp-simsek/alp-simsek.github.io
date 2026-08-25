@@ -250,14 +250,12 @@ def build_research():
         ("Publications", [
             (None, DATA["publications"]),
         ]),
-        ("Policy and other writing", [
-            (None, DATA["other_writing"]),
-        ]),
         ("Other", [
+            ("Columns and essays", DATA["other_writing"]),
             ("Books", DATA["books"]),
             ("Theses", DATA["theses"]),
             ("Publications in mathematics", DATA["math"]),
-            ("Other writing", DATA.get("misc", [])),
+            ("Early writing", DATA.get("misc", [])),
         ]),
     ]
 
@@ -286,6 +284,21 @@ def build_research():
 """
     return page(f"Research — {p['name']}", body, "research.html", p,
                 f"Working papers and publications by {p['name']}.")
+
+
+def build_overview():
+    p = DATA["person"]
+    body = f"""
+<div class="wrap">
+  <h1 class="page-title">Research overview</h1>
+  <p class="page-intro">Two short pieces describing what I work on and why,
+     for readers who would rather not start with a journal article.</p>
+  {paper_list(DATA["overview"])}
+  <p style="margin-top:2rem"><a href="research.html">Papers and publications &rarr;</a></p>
+</div>
+"""
+    return page(f"Research overview — {p['name']}", body, "overview.html", p,
+                f"Short non-technical pieces describing the research program of {p['name']}.")
 
 
 def build_teaching():
@@ -352,6 +365,7 @@ def main():
     pages = {
         "index.html": build_home,
         "research.html": build_research,
+        "overview.html": build_overview,
         "teaching.html": build_teaching,
     }
     for name, fn in pages.items():

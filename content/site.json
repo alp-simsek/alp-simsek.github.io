@@ -37,7 +37,7 @@
     },
     {
       "label": "Research overview",
-      "url": "https://www.dropbox.com/s/bnaxsffk120bpgu/professionalStatementPublic.pdf?dl=0"
+      "url": "overview.html"
     },
     {
       "label": "Email",
@@ -97,10 +97,6 @@
         {
           "label": "NBER wp 33952",
           "url": "https://www.nber.org/papers/w33952"
-        },
-        {
-          "label": "VoxEU",
-          "url": "https://cepr.org/voxeu/columns/financial-conditions-matter-more-interest-rates-new-framework-monetary-policy"
         }
       ],
       "abstract": "Central banks rely on r*—the neutral interest rate—to assess policy stance. However, monetary policy affects activity through broad financial conditions, not only the short-term rate. We propose FCI*, the neutral level of a financial conditions index consistent with output at potential. Unlike r*, FCI* is insulated from financial fluctuations: when asset prices move, FCI captures their estimated effect on output, leaving FCI* to reflect only what the macroeconomy requires. In U.S. data, r* co-moves with the equity premium; FCI* does not. FCI gaps provide useful real-time guidance on policy stance, especially when financial conditions diverge from the policy rate."
@@ -134,6 +130,10 @@
         {
           "label": "NBER wp 33206",
           "url": "https://www.nber.org/papers/w33206"
+        },
+        {
+          "label": "VoxEU",
+          "url": "https://cepr.org/voxeu/columns/financial-conditions-matter-more-interest-rates-new-framework-monetary-policy"
         }
       ],
       "abstract": "We present evidence that noisy financial flows influence financial conditions and macroeconomic activity. How should monetary policy respond to this noise? We develop a model where it is optimal for the central bank to target and (partially) stabilize financial conditions beyond their direct effect on output gaps, even though stable financial conditions are not a social objective per se. In our model, noise affects both financial conditions and macroeconomic activity, and arbitrageurs are reluctant to trade against noise due to aggregate return volatility. Our main result shows that Financial Conditions Index (FCI) targeting—announcing a (soft) FCI target and striving to maintain the actual FCI close to the target—triggers an endogenous return volatility-reducing feedback loop that stabilizes the output gap. This improvement occurs because the policy allows arbitrageurs to absorb noise more effectively. We also demonstrate that FCI targeting is strictly superior to traditional interest rate forward guidance. Finally, we extend recent policy counterfactual methods to incorporate our model's endogenous risk reduction mechanism and apply it to U.S. data. Our estimates indicate that FCI targeting could have reduced the variance of the output gap, inflation, and interest rates by 36%, 2%, and 6%, respectively, and decreased the conditional variance of the FCI by 55%. When compared with interest rate forward guidance, it would have reduced output gap variance by 21%. The stabilizing role of FCI targeting is particularly salient during the period from 2000Q1 to 2007Q4, a period dominated by financial noise shocks."
@@ -469,6 +469,10 @@
         {
           "label": "NBER wp 23614",
           "url": "https://www.nber.org/papers/w23614"
+        },
+        {
+          "label": "VoxEU",
+          "url": "https://cepr.org/voxeu/columns/risk-intolerance-and-global-economy-new-macroeconomic-framework"
         }
       ],
       "abstract": "We provide a continuous-time “risk-centric” representation of the New Keynesian model, which we use to analyze the interactions between asset prices, financial speculation, and macroeconomic outcomes when output is determined by aggregate demand. In principle, interest rate policy is highly effective in dealing with shocks to asset valuations. However, in practice monetary policy faces a wide range of constraints. If these constraints are severe, a decline in risky asset valuations generates a demand recession. This reduces earnings and generates a negative feedback loop between asset prices and aggregate demand. In the recession phase, average beliefs matter not only because they affect asset valuations but also because they determine the strength of the amplification mechanism. In the ex-ante boom phase, belief disagreements (or heterogeneous asset valuations) matter because they induce investors to speculate. This speculation exacerbates the crash by reducing high-valuation investors' wealth when the economy transitions to recession, which depresses (wealth-weighted) average beliefs. Macroprudential policy that restricts speculation in the boom can Pareto improve welfare by increasing asset prices and aggregate demand in the recession."
@@ -526,6 +530,10 @@
         {
           "label": "NBER wp 24176",
           "url": "https://www.nber.org/papers/w24176"
+        },
+        {
+          "label": "VoxEU",
+          "url": "https://cepr.org/voxeu/columns/retail-investor-leverage-and-speculation"
         }
       ],
       "abstract": "Does the provision of leverage to retail traders improve market quality or facilitate socially inefficient speculation that enriches financial intermediaries? We evaluate the effects of 2010 regulations that cap leverage in the U.S. retail foreign exchange market. Using three unique data sets and a difference-in-differences approach, we document that the leverage-constraint reduces trading volume by 23%, alleviates high-leverage traders' losses by 40%, and reduces brokerages' operating capital by 25%. Yet, the policy does not affect the relative bid-ask prices charged by the brokerages. These results suggest the policy improves belief-neutral social welfare without reducing market liquidity."
@@ -1067,6 +1075,35 @@
         {
           "label": "PDF",
           "url": "https://www.dropbox.com/s/7fjod1tw9cd3a2x/VillageInstitutes.pdf?dl=0"
+        }
+      ]
+    }
+  ],
+  "overview": [
+    {
+      "title": "A Brief Overview of My Research",
+      "coauthors": [],
+      "year": "2021",
+      "note": "A short, non-technical statement describing my research program, written in October 2021.",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://www.dropbox.com/s/bnaxsffk120bpgu/professionalStatementPublic.pdf?dl=0"
+        }
+      ]
+    },
+    {
+      "title": "Risk-centric macroeconomics",
+      "coauthors": [
+        "Ricardo Caballero"
+      ],
+      "outlet": "NBER Reporter",
+      "year": "2022",
+      "cite": "no. 2, 10–13",
+      "links": [
+        {
+          "label": "Read",
+          "url": "https://www.nber.org/reporter/2022number2/risk-centric-macroeconomics"
         }
       ]
     }

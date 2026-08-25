@@ -1,3 +1,9 @@
 .DS_Store
 # local CV archive -- the site links to Dropbox instead, and this repo is public
 cv/
+# LaTeX build artefacts
+cv/latex/*.aux
+cv/latex/*.log
+cv/latex/*.out
+cv/latex/rev*.pdf
+cv/latex/*.png
