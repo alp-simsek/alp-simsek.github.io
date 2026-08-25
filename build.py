@@ -291,8 +291,7 @@ def build_overview():
     body = f"""
 <div class="wrap">
   <h1 class="page-title">Research overview</h1>
-  <p class="page-intro">Two short pieces describing what I work on and why,
-     for readers who would rather not start with a journal article.</p>
+  <p class="page-intro">Two short pieces describing what I have worked on.</p>
   {paper_list(DATA["overview"])}
   <p style="margin-top:2rem"><a href="research.html">Papers and publications &rarr;</a></p>
 </div>

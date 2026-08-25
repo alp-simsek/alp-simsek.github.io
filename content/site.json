@@ -1081,18 +1081,6 @@
   ],
   "overview": [
     {
-      "title": "A Brief Overview of My Research",
-      "coauthors": [],
-      "year": "2021",
-      "note": "A short, non-technical statement describing my research program, written in October 2021.",
-      "links": [
-        {
-          "label": "PDF",
-          "url": "https://www.dropbox.com/s/bnaxsffk120bpgu/professionalStatementPublic.pdf?dl=0"
-        }
-      ]
-    },
-    {
       "title": "Risk-centric macroeconomics",
       "coauthors": [
         "Ricardo Caballero"
@@ -1104,6 +1092,18 @@
         {
           "label": "Read",
           "url": "https://www.nber.org/reporter/2022number2/risk-centric-macroeconomics"
+        }
+      ]
+    },
+    {
+      "title": "A Brief Overview of My Research through October 2021",
+      "coauthors": [],
+      "year": "2021",
+      "note": "A short, non-technical statement describing my research program.",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://www.dropbox.com/s/bnaxsffk120bpgu/professionalStatementPublic.pdf?dl=0"
         }
       ]
     }
