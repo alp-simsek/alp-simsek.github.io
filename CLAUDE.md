@@ -4,17 +4,24 @@ Alp Simsek's personal website (alpsimsek.org) and CV. Both live in this folder.
 
 ## The rule that matters most
 
-**Research changes to the website must be made to the CV in the same session.**
+**When a piece of writing enters the record or changes status on the website,
+make the same change to the CV in the same session.**
 
 Alp gives instructions in terms of the website, with the understanding that the
-CV follows automatically. Do not wait to be asked. This applies to:
+CV follows. Do not wait to be asked. The rule covers exactly three things:
 
-- A new working paper added to the site → add to **Working Papers** in the CV
-- A paper moving from working paper to accepted/published → move it in **both**
-  (`working_papers` → `publications` in `content/site.json`; Working Papers →
-  the numbered Publications list in `simsekCV.tex`)
-- A new opinion piece, VoxEU column, or policy essay → add to the site's
-  `other_writing` **and** to *Other Publications* in the CV
+- A new working paper appears → add to **Working Papers** in the CV
+- A paper is accepted or published → move it in **both** (`working_papers` →
+  `publications` in `content/site.json`; Working Papers → the numbered
+  Publications list in `simsekCV.tex`, with outlet, volume and pages)
+- A new opinion piece, VoxEU column, or policy essay appears → add to the
+  site's `other_writing` **and** to *Other Publications* in the CV
+
+That is the whole rule. It is about what exists and what status it holds, not
+about presentation. Website-only edits do **not** propagate: adding a link,
+writing or revising an abstract, adding a note under a title, reordering a
+section, renaming a heading. The CV lists papers with outlets; it does not
+carry the site's links or blurbs.
 
 CV-only items — editorships, honors, PhD students, service, affiliations — come
 as explicit instructions. Don't invent them. The annual Yale review is a
