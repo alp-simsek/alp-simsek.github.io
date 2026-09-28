@@ -61,8 +61,11 @@ def primary_url(paper):
     return links[0]["url"] if links else None
 
 
-def paper_html(paper, idx):
-    """Render one entry in a paper list."""
+def paper_html(paper, idx, year_label=""):
+    """Render one entry in a paper list.
+
+    year_label prefixes a bare year (no outlet), e.g. "updated " for working
+    papers, whose year is that of the latest version, not the first draft."""
     title = paper["title"]
     url = primary_url(paper)
     head = f'<a href="{url}">{title}</a>' if url else title
@@ -79,7 +82,7 @@ def paper_html(paper, idx):
             tail += f', {paper["cite"]}'
         bits.append(tail)
     else:
-        bits.append(paper["year"])
+        bits.append(year_label + paper["year"])
 
     parts = [
         '<li class="paper">',
@@ -108,9 +111,9 @@ def paper_html(paper, idx):
     return "\n".join(parts)
 
 
-def paper_list(papers):
+def paper_list(papers, year_label=""):
     return ('<ul class="papers">\n'
-            + "\n".join(paper_html(p, i) for i, p in enumerate(papers))
+            + "\n".join(paper_html(p, i, year_label) for i, p in enumerate(papers))
             + "\n</ul>")
 
 
@@ -180,7 +183,7 @@ def build_home():
     quick = "".join(f'<a href="{l["url"]}">{l["label"]}</a>' for l in DATA["links"])
     roles = "".join(f"<li>{r}</li>" for r in p["roles"])
 
-    recent = paper_list(DATA["working_papers"][:3])
+    recent = paper_list(DATA["working_papers"][:3], year_label="updated ")
 
     addr = "<br>".join(p["address"])
 
@@ -271,7 +274,9 @@ def build_research():
                 continue
             if subtitle:
                 blocks.append(f'<h4 class="subgroup-title">{subtitle}</h4>')
-            blocks.append(paper_list(items))
+            # Working papers show the year of their latest version.
+            label = "updated " if title == "Working papers" else ""
+            blocks.append(paper_list(items, year_label=label))
 
     body = f"""
 <div class="wrap">

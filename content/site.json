@@ -69,6 +69,29 @@
       "abstract": "Forward guidance has recently been contested, most visibly in the United States. We investigate its benefits and costs in a model in which monetary policy reaches the economy through financial conditions. Noisy flows move those conditions, and because the central bank adjusts its interest rate gradually, they open output gaps. Arbitrageurs trade against the noise but do not fully offset it, because they are uncertain about policy. Guidance resolves the central bank's view of future demand, which lowers that uncertainty and recruits the arbitrageurs to absorb more of the noise. But the announcement also moves financial conditions today, even though the level the central bank wants today has not changed. The optimal guidance intensity balances these forces. It rises with the amount of noise, with policy uncertainty, and with the persistence of the central bank's view. We then compare interest rate guidance with financial conditions guidance. A projected interest rate embeds the central bank's view of the risk premium alongside its view of the economy, so for a given communication effort it conveys less. Financial conditions guidance can always attain the optimal guidance intensity, whereas interest rate guidance attains it only when guidance is not particularly valuable. Even when both attain it, interest rate guidance requires more communication effort. How much a central bank must say therefore depends on what it talks about."
     },
     {
+      "title": "Financial Conditions Targeting",
+      "coauthors": [
+        "Ricardo Caballero",
+        "Tomas Caravello"
+      ],
+      "year": "2026",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://www.dropbox.com/scl/fi/jyjmc9i0cj2gkw6v612ov/FCITargetingPublic.pdf?rlkey=c21zhdppfaetlotg48eb9gycb&dl=0"
+        },
+        {
+          "label": "NBER wp 33206",
+          "url": "https://www.nber.org/papers/w33206"
+        },
+        {
+          "label": "VoxEU",
+          "url": "https://cepr.org/voxeu/columns/financial-conditions-matter-more-interest-rates-new-framework-monetary-policy"
+        }
+      ],
+      "abstract": "Non-fundamental inflows into the stock market loosen financial conditions and raise output, while the policy rate responds gradually. Such financial noise explains up to 20% of the variance of financial conditions and output. These facts motivate a macroeconomic model with noise traders, risk-averse arbitrageurs, and gradual interest rate adjustment. In this model, Financial Conditions Index (FCI) targeting can improve macroeconomic stabilization: the central bank announces its expected FCI as a soft near-term target and adjusts the policy rate to keep conditions near it. This commitment reduces FCI volatility, thereby “recruiting” arbitrageurs to insulate the FCI and aggregate demand from noise."
+    },
+    {
       "title": "Exchange Rate Stabilization and Monetary Transmission",
       "coauthors": [
         "Paul Fontanier"
@@ -111,7 +134,7 @@
       "coauthors": [
         "Ricardo Caballero"
       ],
-      "year": "2025",
+      "year": "2026",
       "links": [
         {
           "label": "PDF",
@@ -119,29 +142,6 @@
         }
       ],
       "abstract": "We analyze monetary policy responses to noisy financial conditions in an open economy where exchange rates and domestic asset prices affect aggregate demand. Noise traders operate in both markets, and specialized arbitrageurs have limited risk-bearing capacity. Monetary policy creates cross-market spillovers: by adjusting the interest rate to stabilize one market, the central bank influences volatility in the other. We show that targeting a financial conditions index (FCI)—a weighted average of exchange rates and domestic asset prices—delivers substantial macroeconomic benefits. FCI targeting commits the central bank to respond to unexpected movements in financial conditions beyond what discretionary monetary policy implies. These stronger responses improve diversification across markets: each market becomes more exposed to external shocks but less exposed to its own. This reduces volatility in both markets and activates the recruitment effect in each market—lower variance induces arbitrageurs to trade against noise, further dampening volatility. Foreign exchange (FX) targeting can also be effective when the exchange rate is the primary source of noise, with benefits that increase as the economy becomes more open. In this case, FX targeting recruits arbitrageurs to stabilize the FX market, reducing volatility and dampening the macroeconomic impact of noise. However, FX targeting also raises volatility in non-targeted markets through anti-recruitment effects, limiting its effectiveness relative to FCI targeting, especially when domestic asset markets also matter for financial conditions and are comparably noisy."
-    },
-    {
-      "title": "Financial Conditions Targeting",
-      "coauthors": [
-        "Ricardo Caballero",
-        "Tomas Caravello"
-      ],
-      "year": "2024",
-      "links": [
-        {
-          "label": "PDF",
-          "url": "https://www.dropbox.com/scl/fi/jyjmc9i0cj2gkw6v612ov/FCITargetingPublic.pdf?rlkey=c21zhdppfaetlotg48eb9gycb&dl=0"
-        },
-        {
-          "label": "NBER wp 33206",
-          "url": "https://www.nber.org/papers/w33206"
-        },
-        {
-          "label": "VoxEU",
-          "url": "https://cepr.org/voxeu/columns/financial-conditions-matter-more-interest-rates-new-framework-monetary-policy"
-        }
-      ],
-      "abstract": "We present evidence that noisy financial flows influence financial conditions and macroeconomic activity. How should monetary policy respond to this noise? We develop a model where it is optimal for the central bank to target and (partially) stabilize financial conditions beyond their direct effect on output gaps, even though stable financial conditions are not a social objective per se. In our model, noise affects both financial conditions and macroeconomic activity, and arbitrageurs are reluctant to trade against noise due to aggregate return volatility. Our main result shows that Financial Conditions Index (FCI) targeting—announcing a (soft) FCI target and striving to maintain the actual FCI close to the target—triggers an endogenous return volatility-reducing feedback loop that stabilizes the output gap. This improvement occurs because the policy allows arbitrageurs to absorb noise more effectively. We also demonstrate that FCI targeting is strictly superior to traditional interest rate forward guidance. Finally, we extend recent policy counterfactual methods to incorporate our model's endogenous risk reduction mechanism and apply it to U.S. data. Our estimates indicate that FCI targeting could have reduced the variance of the output gap, inflation, and interest rates by 36%, 2%, and 6%, respectively, and decreased the conditional variance of the FCI by 55%. When compared with interest rate forward guidance, it would have reduced output gap variance by 21%. The stabilizing role of FCI targeting is particularly salient during the period from 2000Q1 to 2007Q4, a period dominated by financial noise shocks."
     },
     {
       "title": "Türkiye's Homemade Crises",
